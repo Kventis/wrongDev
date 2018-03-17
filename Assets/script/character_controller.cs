@@ -18,6 +18,7 @@ public class character_controller : MonoBehaviour {
 
 	private bool isFacingRight = true;
 	private bool onGround = true;
+	private bool isAttack = false;
 	private Animator anim;
 	private Rigidbody2D rigidbody2D ;
 	private SpriteRenderer spriteRender;
@@ -45,7 +46,6 @@ public class character_controller : MonoBehaviour {
 			return;
 		}
 
-
 		anim.SetFloat("speed", Mathf.Abs(move));
 		rigidbody2D.velocity = new Vector2(move * maxSpeed , 0.05f);
 		//rigidbody2D.AddForce (new Vector2(move * maxSpeed, 0));
@@ -55,10 +55,12 @@ public class character_controller : MonoBehaviour {
 
 	private void Update(){
 
-		if (onGround && Input.GetButtonDown ("Jump")) {
-		
+		if (onGround && Input.GetButtonDown ("Jump")) {		
 			anim.SetBool ("ground", false);
 			rigidbody2D.AddForce (new Vector2(0, upSpeed));
+		}
+		if (onGround && !isAttack && Input.GetButtonDown ("Fire1")) {		
+			anim.SetBool ("isAttack", true);
 		}
 
 	}

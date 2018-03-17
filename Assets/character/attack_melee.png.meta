@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: d7f228395faa52e47940cb4eee912713
-timeCreated: 1521131505
+guid: ff7a8909b76604b4184bb83f1eecd96a
+timeCreated: 1521303341
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: idle_0
-    21300002: idle_1
-    21300004: idle_2
-    21300006: idle_3
-    21300008: idle_4
-    21300010: idle_5
-    21300012: idle_6
-    21300014: idle_7
-    21300016: idle_8
-    21300018: idle_9
+    21300000: attack_melee_0
+    21300002: attack_melee_1
+    21300004: attack_melee_2
+    21300006: attack_melee_3
+    21300008: attack_melee_4
+    21300010: attack_melee_5
+    21300012: attack_melee_6
+    21300014: attack_melee_7
+    21300016: attack_melee_8
+    21300018: attack_melee_9
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -140,141 +140,141 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: attack_melee_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1548
-        width: 289
-        height: 497
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_1
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 1548
-        width: 288
-        height: 497
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_2
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1548
-        width: 287
-        height: 497
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1050
-        width: 285
-        height: 496
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_4
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 1050
-        width: 286
-        height: 496
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: idle_5
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 1052
-        width: 284
+        x: 43
+        y: 3568
+        width: 293
         height: 493
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: idle_6
+      name: attack_melee_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 552
-        width: 284
-        height: 495
+        x: 559
+        y: 3571
+        width: 292
+        height: 493
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: idle_7
+      name: attack_melee_2
       rect:
         serializedVersion: 2
-        x: 285
-        y: 553
-        width: 284
+        x: 1048
+        y: 3573
+        width: 321
         height: 494
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: idle_8
+      name: attack_melee_3
       rect:
         serializedVersion: 2
-        x: 568
-        y: 550
-        width: 288
-        height: 499
+        x: 33
+        y: 3007
+        width: 493
+        height: 494
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: idle_9
+      name: attack_melee_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 50
-        width: 288
-        height: 499
+        x: 559
+        y: 3007
+        width: 492
+        height: 486
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: attack_melee_5
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 3005
+        width: 521
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: attack_melee_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2437
+        width: 521
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: attack_melee_7
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2437
+        width: 513
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: attack_melee_8
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2441
+        width: 398
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: attack_melee_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1872
+        width: 370
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
