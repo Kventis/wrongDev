@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9445abfac9c10294f8b48d8bf4621ffb, type: 3}
+  m_Name: GraveTile
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 21300000, guid: 740a8d947a3a4594396e5941b47067bf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 1
+  m_ColliderType: 2
+  graveTiles:
+  - {fileID: 21300000, guid: ef33a32a5c531cb4d98cf6666f6edd82, type: 3}
+  - {fileID: 21300000, guid: 8ea6fa925e1a2454099824e6d5d2570a, type: 3}
+  - {fileID: 21300000, guid: 3ce1ae2f5a1d8bd4aa4361c743802c43, type: 3}
+  - {fileID: 21300000, guid: 1593ababb156310419acd6aa75093ae4, type: 3}
+  - {fileID: 21300000, guid: 740a8d947a3a4594396e5941b47067bf, type: 3}
+  - {fileID: 21300000, guid: 2fad3f3fcc911844e8e060a426d50211, type: 3}
+  - {fileID: 21300000, guid: 7a9331e9eefe9534bb2573fb1b3c38a9, type: 3}
+  - {fileID: 21300000, guid: 775cdcfaa7d42074f983f24512c718e3, type: 3}
+  - {fileID: 21300000, guid: 9edb32ece296b0b488ed87379036b003, type: 3}
+  - {fileID: 21300000, guid: 267e4b3596d82aa48a343f6dba5fad8c, type: 3}
+  - {fileID: 21300000, guid: a3b33084832c44b4fa3afcbaa03b0789, type: 3}
+  - {fileID: 21300000, guid: a52ebe0f59191be4f8af64ae281b7456, type: 3}
+  - {fileID: 21300000, guid: 0229ba3fe7ad4a645bbf52c8dfae8e6c, type: 3}
+  - {fileID: 21300000, guid: fd311ff996132c744ac09da4fc2f551b, type: 3}
+  - {fileID: 21300000, guid: 0c7622a31a7fd5e4d8d4567512f9efe5, type: 3}
+  - {fileID: 21300000, guid: 05177ba9d85094d46a3e333ee6e96927, type: 3}
+  preview: {fileID: 21300000, guid: 740a8d947a3a4594396e5941b47067bf, type: 3}
