@@ -19,8 +19,8 @@ public class kunai_script : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll) {
 		if (!coll.gameObject.tag.Equals ("Player") && !coll.gameObject.tag.Equals ("attack") && !coll.gameObject.tag.Equals ("MainCamera")) {
-			this.gameObject.SetActive (false);
-			parent.GetComponent<character_controller> ().returnKunai (this.gameObject);
+			this.gameObject.GetComponent<SpriteRenderer> ().enabled = false;
+
 		}
 
 		if (coll.gameObject.tag.Equals ("MainCamera")){
@@ -33,6 +33,10 @@ public class kunai_script : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D coll) {
-		
+		if (!coll.gameObject.tag.Equals ("Player") && !coll.gameObject.tag.Equals ("attack") && !coll.gameObject.tag.Equals ("MainCamera")) {
+			this.gameObject.SetActive (false);
+			this.gameObject.GetComponent<SpriteRenderer> ().enabled = true;
+			parent.GetComponent<character_controller> ().returnKunai (this.gameObject);
+		}
 	}
 }
